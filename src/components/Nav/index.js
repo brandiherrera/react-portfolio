@@ -5,9 +5,9 @@ import './index.css';
 
 function Nav() {
   return (
-    <div className='flexContainer'>
+    <div className='nav-flex-container'>
       <h1>Brandi Herrera</h1>
-      <div className='flexContainer'>
+      <div className='nav-flex-container'>
         <div>
           <a href='https://www.linkedin.com/in/brandi-c-herrera' target='_blank' rel='noopener noreferrer'>
             <FaLinkedin size='30px' />
