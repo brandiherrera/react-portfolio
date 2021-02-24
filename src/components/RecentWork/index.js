@@ -23,7 +23,7 @@ const recentWork = [
 
 function RecentWork() {
   return (
-    <div className='column-flex-container'>
+    <div className='column-flex-container section'>
       <h2>Recent Work</h2>
       <div className='work-tile-container'>
         {

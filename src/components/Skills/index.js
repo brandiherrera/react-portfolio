@@ -70,7 +70,7 @@ const skills = [
 
 function Skills() {
   return (
-    <div className='column-flex-container'>
+    <div className='column-flex-container section'>
       <h2>Skills</h2>
       <div className='skills-content-container'>
         {
