@@ -22,5 +22,19 @@ code {
   align-items: center;
 }
 .section {
-  padding: 48px 24px;
+  padding: 64px 24px;
+}
+.content-section {
+  text-align: center;
+}
+
+@media screen and (max-width: 775px) {
+  .content-section {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 776px) {
+  .content-section {
+    max-width: 70%;
+  }
 }
