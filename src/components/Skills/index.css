@@ -9,7 +9,6 @@
 .skills-content-item {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 .skills-content-item:nth-child(2) {
@@ -19,10 +18,6 @@
 .skills-subgroup {
   text-align: center;
 }
-/* div > ul > li {
-  list-style-type: none;
-  padding: 0;
-} */
 @media screen and (max-width: 775px) {
   .skills-content-container {
     min-height: 300px;
