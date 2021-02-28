@@ -1,0 +1,67 @@
+.work-tile {
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.work-tile-button {
+  color: white;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #D6D9F5;
+  border-radius: 30px;
+  padding: 8px;
+  margin: 4px;
+  min-width: 150px;
+  transition: .5s;
+}
+.work-tile-button:hover {
+  color: #1D2671;
+  background-color: #D6D9F5;
+  cursor: pointer;
+}
+.work-tile > .tech-icons {
+  font-size: 32px;
+}
+
+@media screen and (max-width: 500px) {
+  .work-tile > h4,
+  .work-tile > p {
+    font-size: 16px;
+    margin: 4px;
+  }
+  .work-tile-button {
+    min-width: 100px;
+  }
+  .work-tile > .tech-icons {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 776px) {
+  .work-tile > h4,
+  .work-tile > p {
+    font-size: 16px;
+    margin: 4px;
+  }
+  .work-tile > .tech-icons {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .work-tile > h4,
+  .work-tile > p {
+    font-size: 20px;
+    margin: 12px;
+  }
+  .work-tile > .tech-icons {
+    font-size: 40px;
+  }
+  .work-tile-button {
+    min-width: 150px;
+  }
+}

@@ -1,43 +1,27 @@
 import WorkTile from '../WorkTile';
 
 import './index.css';
-
-const recentWork = [
-  {
-    codeLink: '',
-    liveLink: '',
-    preview: '',
-    techStack: [],
-    title: 'Title 1',
-    desc: "Let's travel the world"
-  },
-  {
-    codeLink: '',
-    liveLink: '',
-    preview: '',
-    techStack: [],
-    title: 'Title 2',
-    desc: '',
-  },
-]
+import { work } from '../../utils/workUtil';
 
 function RecentWork() {
   return (
     <div className='column-flex-container section'>
-      <h2>Recent Work</h2>
+      <h2 style={{ color: '#FFF' }}>Recent Work</h2>
       <div className='work-tile-container'>
         {
-          recentWork.map((rw, i)=> (
-            <div className='work-tile-item' key={ i }>
-              <WorkTile
-                key={ i }
-                codeLink={ rw.codeLink }
-                liveLink={ rw.liveLink }
-                preview={ rw.preview }
-                techStack={ rw.techStack }
-                title={ rw.title }
-                desc={ rw.desc }
-              />
+          work.map((w, i)=> (
+            <div className='container' key={ i }>
+              <img src={ w.preview } alt={ w.title } className='image' />
+              <div className='overlay'>
+                <WorkTile
+                  key={ i }
+                  title={ w.title }
+                  desc={ w.desc }
+                  codeLink={ w.codeLink }
+                  liveLink={ w.liveLink }
+                  techStack={ w.techStack }
+                />
+              </div>
             </div>
           ))
         }

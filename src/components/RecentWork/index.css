@@ -1,19 +1,45 @@
 .work-tile-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
-.work-tile-item {
-  min-width: 200px;
-  min-height: 200px;
-  background-color: purple;
+.container {
+  position: relative;
+  align-items: center;
   border-radius: 8px;
   margin: 12px;
-  padding: 12px;
 }
+.image {
+  display: block;
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 8px;
+  transition: .5s ease;
+  background: #1D2671;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
 @media screen and (max-width: 775px) {
-  .work-tile-item {
-    width: 100%;
-    min-height: 300px;
+  .container {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 776px) {
+  .container {
+    max-width: 45%;
   }
 }
