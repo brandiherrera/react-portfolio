@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px solid grey;
   border-radius: 8px;
 }
 .skills-content-item {
@@ -12,8 +11,8 @@
   align-items: center;
 }
 .skills-content-item:nth-child(2) {
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
 }
 .skills-subgroup {
   text-align: center;
@@ -26,8 +25,8 @@
   .skills-content-item:nth-child(2) {
     border-left: 0;
     border-right: 0;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
   }
 }
 @media screen and (min-width: 776px) {
