@@ -1,7 +1,9 @@
 function Footer() {
   return (
-    <div className='flex-container'>
-      <p>&#169;{ new Date().getFullYear() } Brandi Herrera</p>
+    <div className='flex-container section' style={{ color: '#FFF' }}>
+      <h3>
+        &#169;{ new Date().getFullYear() } Brandi Herrera
+      </h3>
     </div>
   )
 }
