@@ -8,7 +8,7 @@ function Header() {
       <h2 className='content-section' style={{ color: '#737373' }}>
         Hi, I'm Brandi and I like to create beautiful user experiences
       </h2>
-      <img className='my-pic' src={ PortfolioImg } alt='portfolio header' />
+      <img className='header-pic' src={ PortfolioImg } alt='portfolio header' />
     </div>
   )
 }
