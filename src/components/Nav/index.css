@@ -3,4 +3,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  background-color: white;
+}
+.nav-flex-container > .flex-container > div {
+  padding: 4px;
+}
+.nav-flex-container > .flex-container > div > a  {
+  color: #252F8E;
+}
+.nav-flex-container > .flex-container > div > a:hover  {
+  color: #000;
+  transition: .25s;
 }

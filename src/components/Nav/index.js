@@ -1,13 +1,16 @@
-import { HiOutlineMail } from 'react-icons/hi';
-import { FaRegFilePdf, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { MdPictureAsPdf } from 'react-icons/md';
+import { SiMailDotRu } from 'react-icons/si';
 
 import './index.css';
 
 function Nav() {
   return (
     <div className='nav-flex-container'>
-      <h1>Brandi Herrera</h1>
-      <div className='nav-flex-container'>
+      <h2>
+        Brandi Herrera
+      </h2>
+      <div className='flex-container'>
         <div>
           <a href='https://www.linkedin.com/in/brandi-c-herrera' target='_blank' rel='noopener noreferrer'>
             <FaLinkedin size='30px' />
@@ -20,14 +23,14 @@ function Nav() {
         </div>
         <div>
           <a href='mailto:bcjherrera@gmail.com?Subject=Portfolio%20Contact' target='_blank' rel='noopener noreferrer'>
-            <HiOutlineMail size='30px' />
+            <SiMailDotRu size='30px' />
           </a>
         </div>
         <div>
           {/* TODO: Add href */}
-          <a href='' target='_blank' rel='noopener noreferrer'>
-            <FaRegFilePdf size='30px' />
-          </a>
+          {/* <a href='' target='_blank' rel='noopener noreferrer'>
+            <MdPictureAsPdf size='30px' />
+          </a> */}
         </div>
       </div>
     </div>
