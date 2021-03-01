@@ -15,7 +15,7 @@ export const work = [
   {
     title: 'MuseMe',
     preview: MuseMe,
-    desc: "Let's explore art together",
+    desc: "Let's explore art together.",
     codeLink: 'https://github.com/brandiherrera/museum-app-full-stack-capstone-react',
     liveLink: 'https://museum-app-full-stack-capstone-react.brandiherrera.now.sh/',
     techStack: [
@@ -30,7 +30,7 @@ export const work = [
   {
     title: 'My-Brain Tracker',
     preview: MyBrainTracker,
-    desc: 'Understand your migraine triggers and symptoms',
+    desc: 'Understand your migraine triggers and symptoms.',
     codeLink: 'https://github.com/brandiherrera/migraine-app-full-stack-capstone-react',
     liveLink: 'https://migraine-app-full-stack-capstone-react.brandiherrera.now.sh/',
     techStack: [
@@ -45,7 +45,7 @@ export const work = [
   {
     title: 'Travodex',
     preview: Travodex,
-    desc: 'Explore the world from your couch',
+    desc: 'Explore the world from your couch.',
     codeLink: 'https://github.com/brandiherrera/travel-destination-search-api-capstone',
     liveLink: 'https://brandiherrera.github.io/travel-destination-search-api-capstone/',
     techStack: [
@@ -58,7 +58,7 @@ export const work = [
   {
     title: 'Noteful',
     preview: Noteful,
-    desc: 'Organize your to-do list once and for all',
+    desc: 'Organize your to-do list once and for all.',
     codeLink: 'https://github.com/brandiherrera/noteful-app',
     liveLink: 'https://noteful-app.brandiherrera.now.sh/',
     techStack: [
