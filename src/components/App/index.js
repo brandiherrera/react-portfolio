@@ -8,18 +8,26 @@ import Skills from '../Skills'
 function App() {
   return (
     <div>
-      <nav>
-        <Nav />
-      </nav>
+      <div className='diagonal-box'>
+        <div className='content'>
+          <nav>
+            <Nav />
+          </nav>
+          <Header />
+        </div>
+      </div>
       <main>
-        <Header />
         <About />
-        <Skills />
+        <div className='diagonal-box'>
+          <div className='content'>
+            <Skills />
+          </div>
+        </div>
         <RecentWork />
       </main>
-      <footer>
-        <Footer />
-      </footer>
+        <footer>
+          <Footer />
+        </footer>
     </div>
   )
 }
