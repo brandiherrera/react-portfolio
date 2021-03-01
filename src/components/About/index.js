@@ -5,6 +5,7 @@ function About() {
       <p className='content-section'>
         I'm an experienced professional and team leader who one day decided to change gears and follow my passion of software engineering. I thrive in designing and coding simplistic, minimal, yet beautiful things.
       </p>
+      <p></p>
     </div>
   )
 }
