@@ -1,7 +1,7 @@
 .header-pic {
-  margin: 24px 0;
-  width: 200px;
-  height: 200px;
+  margin-bottom: 24px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
 }
