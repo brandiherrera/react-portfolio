@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { MdPictureAsPdf } from 'react-icons/md';
-import { SiMailDotRu } from 'react-icons/si';
+import { MdPictureAsPdf, MdEmail } from 'react-icons/md';
 
 import './index.css';
 
@@ -13,25 +12,25 @@ function Nav() {
       <div className='flex-container'>
         <div>
           <a href='https://www.linkedin.com/in/brandi-c-herrera' target='_blank' rel='noopener noreferrer'>
-            <FaLinkedin size='30px' />
+            <FaLinkedin size='24px' />
           </a>
         </div>
         <div>
           <a href='https://www.github.com/brandiherrera' target='_blank' rel='noopener noreferrer'>
-            <FaGithub size='30px' />
+            <FaGithub size='24px' />
           </a>
         </div>
         <div>
           <a href='mailto:bcjherrera@gmail.com?Subject=Portfolio%20Contact' target='_blank' rel='noopener noreferrer'>
-            <SiMailDotRu size='30px' />
+            <MdEmail size='24px' />
           </a>
         </div>
-        <div>
-          {/* TODO: Add href */}
-          {/* <a href='' target='_blank' rel='noopener noreferrer'>
+        {/* TODO: Add href */}
+        {/* <div>
+          <a href='' target='_blank' rel='noopener noreferrer'>
             <MdPictureAsPdf size='30px' />
-          </a> */}
-        </div>
+          </a>
+        </div> */}
       </div>
     </div>
   )

@@ -8,10 +8,10 @@
 .nav-flex-container > .flex-container > div {
   padding: 4px;
 }
-.nav-flex-container > .flex-container > div > a  {
-  color: #252F8E;
+.nav-flex-container > .flex-container > div > a {
+  color: #888;
 }
-.nav-flex-container > .flex-container > div > a:hover  {
+.nav-flex-container > .flex-container > div > a:hover {
   color: #000;
   transition: .25s;
 }
